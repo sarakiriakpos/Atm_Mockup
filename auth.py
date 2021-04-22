@@ -101,15 +101,23 @@ def bank_operation(user):
 
 
 def withdrawal_operation():
-    print("withdrawal")
-   
+   amount = float(input("\nEnter amount to withdraw: "))
+      ver_withdraw = input("Is this the correct amount, Yes or No ? " + str(amount) + " ")
+               if ver_withdraw == "Yes":
+                   print("Verify withdraw")
+               else:
+                   break
 
 def deposit_operation():
-    print("Deposit Operations")
-
+    amount = float(input("Enter amount to be Deposited: "))
+    self.balance += amount
+    print("\n Amount Deposited:", amount)
 
 def generation_account_number():
-    return random.randrange(1111111111, 9999999999)
+    accounts = []
+    for i in range(1111111111, 9999999999)
+       account = Account(i, 0)
+       accounts.append(account)
 
 
 def set_current_balance(user_details, balance):
