@@ -63,7 +63,7 @@ def register():
 
     if is_user_created:
 
-        print("Congratulation, Your Account is successfully created!")
+        print("ACCOUNT REGISTRATION SUCCESSFUL!")
         print(" == ==== ====== ===== ===")
         print("Your account number is: %d" % accountNumber)
         print("Make sure you keep it safe")
@@ -77,7 +77,7 @@ def register():
 
 
 def bank_operation(user):
-    print("Welcome %s %s " % (user[0], user[1]))
+    print("Hello!!! Welcome %s %s " % (user[0], user[1]))
 
     selected_option = int(input(
         "What would you like to do? (1) deposit (2) withdrawal (3) Logout (4) Exit \n"))
