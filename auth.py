@@ -1,7 +1,7 @@
 
 import random
-import validation
-import database
+
+
 from getpass import getpass
 
 def init():
